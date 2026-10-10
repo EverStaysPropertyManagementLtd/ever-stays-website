@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.everstays.co.uk/sitemap.xml
