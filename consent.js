@@ -1,8 +1,8 @@
 /* Ever Stays consent controls: no optional Google tags are loaded before opt-in. */
 (function(){'use strict';
 const KEY='everstays_consent_v1';
-// Replace with your real GA4 measurement ID after configuring the property.
-const GA4_ID='';
+// Ever Stays GA4 measurement ID; loaded only after analytics consent.
+const GA4_ID='G-BKM438B3ZY';
 const GOOGLE_ADS_ID=''; // e.g. AW-XXXXXXXXX; optional, not connected yet.
 const defaults={analytics:false,advertising:false};
 let saved=null;
